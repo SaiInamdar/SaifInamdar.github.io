@@ -3505,7 +3505,7 @@
 				}
 				#banner h1 {
 					text-align: right;
-					font-size: 0.5em;
+					font-size: 2em;
 					margin: 0 0 1em 0;
 					padding: 0;
 					letter-spacing: 3px;
@@ -3524,7 +3524,7 @@
 			opacity: 1;
 		}
 
-		@media screen and (min-width: 1000px) {
+		@media screen and (max-width: 1680px) {
 
 			#banner {
 				padding: 10em 0 8em 0;
@@ -3556,10 +3556,7 @@
 				padding: 12em 0 10em 0;
 			}
 
-				#banner br {
-					display: none;
-				}
-
+				
 		}
 
 		@media screen and (max-width: 736px) {

@@ -3383,6 +3383,14 @@
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #2BBCFF;
+			-webkit-transition: all 0.3s ease-out;
+			-moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+		#banner h1:hover {
+			color: #F7FFF7;
 		}
 
 		#banner blockquote {
